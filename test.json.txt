@@ -1,5 +1,38 @@
 {
-
-"apple":"ball",
-"hello":"bye"
+  "version": 1,
+  "data": {
+    "identifier": "primary_list_item_5",
+    "type": "list",
+    "contents": [
+      {
+        "type": "IMSOIProgressBar",
+        "label": "Next",
+        "identifier": "primary_list_item_0",
+        "vPadding": 40
+      },
+      {
+        "type": "text",
+        "text": "Hi user, start your journey\n on India's largest online Marketplace\n for FREE",
+        "identifier": "primary_list_item_1",
+        "font": 18
+      },
+      {
+        "type": "IMInput",
+        "label": "Hi user, start your journey on India's largest online Marketplace for FREE",
+        "identifier": "primary_list_item_2"
+      },
+      {
+        "type": "IMButton",
+        "label": "Next",
+        "identifier": "primary_list_item_3",
+        "vPadding": 30,
+        "ShapeToken": "RECTANGLE"
+      },
+      {
+        "type": "IMSOIBox",
+        "identifier": "primary_list_item_4",
+        "vPadding": 100
+      }
+    ]
+  }
 }
