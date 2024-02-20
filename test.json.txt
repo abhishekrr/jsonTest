@@ -26,7 +26,13 @@
         "label": "Next",
         "identifier": "primary_list_item_3",
         "vPadding": 30,
-        "ShapeToken": "RECTANGLE"
+        "ShapeToken": "RECTANGLE",
+        "actions": [
+          {
+            "type": "onClick_deeplink",
+            "deeplink": "https://yakuza.sega.com/akiyama"
+          }
+        ]
       },
       {
         "type": "IMSOIBox",
