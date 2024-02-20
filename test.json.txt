@@ -32,7 +32,7 @@
         "label": "Next",
         "identifier": "primary_list_item_3",
         "vPadding": 30,
-        "ShapeToken": "RECTANGLE",
+        "ShapeToken": "ROUNDED_CORNERS",
         "actions": [
           {
             "type": "onClick_deeplink",
