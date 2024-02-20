@@ -18,7 +18,7 @@
          "actions": [
           {
             "type": "onClick_deeplink",
-            "deeplink": "https://yakuza.sega.com/akiyama"
+            "deeplink": "indiamart action 1"
           }
         ]
       },
@@ -36,7 +36,7 @@
         "actions": [
           {
             "type": "onClick_deeplink",
-            "deeplink": "https://yakuza.sega.com/akiyama"
+            "deeplink": "indiamart action 2"
           }
         ]
       },
