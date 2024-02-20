@@ -12,19 +12,19 @@
       },
       {
         "type": "text",
-        "text": "Hi user, start your journey\n on India's largest online Marketplace\n for FREE",
+        "text": "sandeep sir demo ",
         "identifier": "primary_list_item_1",
-        "font": 18,
+        "font": 25,
          "actions": [
           {
             "type": "onClick_deeplink",
-            "deeplink": "DIFF FROM PREVIOUS"
+            "deeplink": "S"
           }
         ]
       },
       {
         "type": "IMInput",
-        "label": "Hi user, start your journey on India's largest online Marketplace for FREE",
+        "label": "sandeep sir demo",
         "identifier": "primary_list_item_2"
       },
       {
@@ -36,7 +36,7 @@
         "actions": [
           {
             "type": "onClick_deeplink",
-            "deeplink": "indiamart NEW ACTION CAME"
+            "deeplink": "demo NEW ACTION CAME"
           }
         ]
       },
