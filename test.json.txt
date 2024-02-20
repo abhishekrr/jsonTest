@@ -12,13 +12,13 @@
       },
       {
         "type": "text",
-        "text": "Hi user, start your journey\n on India's largest online Marketplace\n for FREE",
+        "text": "text got changed",
         "identifier": "primary_list_item_1",
         "font": 18,
          "actions": [
           {
             "type": "onClick_deeplink",
-            "deeplink": "indiamart action 1"
+            "deeplink": "indiamart action 5"
           }
         ]
       },
@@ -36,7 +36,7 @@
         "actions": [
           {
             "type": "onClick_deeplink",
-            "deeplink": "indiamart action 2"
+            "deeplink": "indiamart action button"
           }
         ]
       },
