@@ -12,13 +12,13 @@
       },
       {
         "type": "text",
-        "text": "text got changed",
+        "text": "Hi user, start your journey\n on India's largest online Marketplace\n for FREE",
         "identifier": "primary_list_item_1",
         "font": 18,
          "actions": [
           {
             "type": "onClick_deeplink",
-            "deeplink": "indiamart action 5"
+            "deeplink": "DIFF FROM PREVIOUS"
           }
         ]
       },
@@ -32,11 +32,11 @@
         "label": "Next",
         "identifier": "primary_list_item_3",
         "vPadding": 30,
-        "ShapeToken": "ROUNDED_CORNERS",
+        "ShapeToken": "RECTANGLE",
         "actions": [
           {
             "type": "onClick_deeplink",
-            "deeplink": "indiamart action button"
+            "deeplink": "indiamart NEW ACTION CAME"
           }
         ]
       },
