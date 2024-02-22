@@ -46,5 +46,47 @@
         "vPadding": 100
       }
     ]
+  },
+"data2": {
+    "identifier": "primary_list_item_5",
+    "type": "list",
+    "contents": [
+     
+      {
+        "type": "text",
+        "text": "2nd page",
+        "identifier": "primary_list_item_1",
+        "font": 25,
+         "actions": [
+          {
+            "type": "onClick_deeplink",
+            "deeplink": "S"
+          }
+        ]
+      },
+      {
+        "type": "IMInput",
+        "label": "sandeep sir demo",
+        "identifier": "primary_list_item_2"
+      },
+      {
+        "type": "IMButton",
+        "label": "Next",
+        "identifier": "primary_list_item_3",
+        "vPadding": 30,
+        "ShapeToken": "RECTANGLE",
+        "actions": [
+          {
+            "type": "onClick_deeplink",
+            "deeplink": "demo NEW ACTION CAME"
+          }
+        ]
+      },
+      {
+        "type": "IMSOIBox",
+        "identifier": "primary_list_item_4",
+        "vPadding": 100
+      }
+    ]
   }
 }
