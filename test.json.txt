@@ -8,7 +8,7 @@
         "type": "IMSOIProgressBar",
         "label": "Next",
         "identifier": "primary_list_item_0",
-        "vPadding": 5
+        "vPadding": 0
       },
       {
         "type": "text",
