@@ -27,7 +27,7 @@
         },
         {
           "type": "text",
-          "text": "Hi user, start your journey \n on India's largest online Marketplace \n for FREE",
+          "text": "Hi user 10:35, start your journey \n on India's largest online Marketplace \n for FREE",
           "identifier": "primary_list_item_1",
           "font": 18,
           "color": "#000000",
