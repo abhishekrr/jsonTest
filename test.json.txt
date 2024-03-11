@@ -7,7 +7,7 @@
       "contents": [
         {
           "type": "IMSOIProgressBar",
-          "bgColour": "#EB96EB",
+          "bgColour": "#FFFFFF",
           "inputShape": "circle",
           "currentScreen": 1,
           "identifier": "primary_list_item_0",
