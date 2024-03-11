@@ -1,4 +1,3 @@
-
 {
   "version": 1,
   "page1": {
@@ -85,103 +84,6 @@
   },
   "page2": {
     "data": {
-      "identifier": "primary_list_item_51",
-      "type": "list",
-      "contents": [
-        {
-          "type": "IMSOIProgressBar",
-          "label": "Next",
-          "inputShape": "circle",
-          "currentScreen": 2,
-          "identifier": "primary_list_item_0",
-          "screenTexts": [
-            {
-              "label": "BUSINESS NAME"
-            },
-            {
-              "label": "ADD PRODCUTS"
-            },
-            {
-              "label": "GST"
-            }
-          ],
-          "vPadding": 0
-        },
-        {
-          "type": "text",
-          "text": "Add products you wish to sell, you can add more products later",
-          "identifier": "primary_list_item_1",
-          "font": 18,
-          "color": "#000000",
-          "fontGlyphs": 400,
-          "vPadding": 40
-        },
-        {
-          "identifier": "primary_list_item_52",
-          "type": "hlist",
-          "contents": [
-            {
-              "type": "image",
-              "identifier": "primary_list_item_31",
-              "vPadding":10
-            },
-            {
-              "type": "IMInput",
-              "label": "1st product/service name",
-              "identifier": "primary_list_item_2"
-            }
-          ]
-        },
-        {
-          "identifier": "primary_list_item_58",
-          "type": "hlist",
-          "contents": [
-            {
-              "type": "image",
-              "identifier": "primary_list_item_32",
-              "vPadding":10
-            },
-            {
-              "type": "IMInput",
-              "label": "2nd product/service name",
-              "identifier": "primary_list_item_211"
-            }
-          ]
-        },
-        {
-          "identifier": "primary_list_item_59",
-          "type": "hlist",
-          "contents": [
-            {
-              "type": "image",
-              "identifier": "primary_list_item_33",
-              "vPadding":10
-            },
-            {
-              "type": "IMInput",
-              "label": "3rd product/service name",
-              "identifier": "primary_list_item_277"
-            }
-          ]
-        },
-        {
-          "type": "IMButton",
-          "label": "Next",
-          "identifier": "primary_list_item_3",
-          "vPadding": 70,
-          "shape": "CircleShape",
-          "actions": [
-            {
-              "type": "onClick_deeplink",
-              "deeplink": "openThirdPage"
-            }
-          ]
-        }
-      ]
-    }
-  },
-  "page3": {
-    "data": {
       "identifier": "primary_list_item_54",
       "type": "list",
       "contents": [
@@ -259,6 +161,103 @@
           "vPadding": 10,
           "radius": 23,
           "font": 18,
+          "shape": "CircleShape",
+          "actions": [
+            {
+              "type": "onClick_deeplink",
+              "deeplink": "openThirdPage"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "page3": {
+    "data": {
+      "identifier": "primary_list_item_51",
+      "type": "list",
+      "contents": [
+        {
+          "type": "IMSOIProgressBar",
+          "label": "Next",
+          "inputShape": "circle",
+          "currentScreen": 2,
+          "identifier": "primary_list_item_0",
+          "screenTexts": [
+            {
+              "label": "BUSINESS NAME"
+            },
+            {
+              "label": "ADD PRODCUTS"
+            },
+            {
+              "label": "GST"
+            }
+          ],
+          "vPadding": 0
+        },
+        {
+          "type": "text",
+          "text": "Add products you wish to sell, you can add more products later",
+          "identifier": "primary_list_item_1",
+          "font": 18,
+          "color": "#000000",
+          "fontGlyphs": 400,
+          "vPadding": 40
+        },
+        {
+          "identifier": "primary_list_item_52",
+          "type": "hlist",
+          "contents": [
+            {
+              "type": "image",
+              "identifier": "primary_list_item_31",
+              "vPadding": 10
+            },
+            {
+              "type": "IMInput",
+              "label": "1st product/service name",
+              "identifier": "primary_list_item_2"
+            }
+          ]
+        },
+        {
+          "identifier": "primary_list_item_58",
+          "type": "hlist",
+          "contents": [
+            {
+              "type": "image",
+              "identifier": "primary_list_item_32",
+              "vPadding": 10
+            },
+            {
+              "type": "IMInput",
+              "label": "2nd product/service name",
+              "identifier": "primary_list_item_211"
+            }
+          ]
+        },
+        {
+          "identifier": "primary_list_item_59",
+          "type": "hlist",
+          "contents": [
+            {
+              "type": "image",
+              "identifier": "primary_list_item_33",
+              "vPadding": 10
+            },
+            {
+              "type": "IMInput",
+              "label": "3rd product/service name",
+              "identifier": "primary_list_item_277"
+            }
+          ]
+        },
+        {
+          "type": "IMButton",
+          "label": "Next",
+          "identifier": "primary_list_item_3",
+          "vPadding": 70,
           "shape": "CircleShape",
           "actions": [
             {
