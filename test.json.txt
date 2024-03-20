@@ -91,7 +91,7 @@
           "type": "IMSOIProgressBar",
           "label": "Next",
           "inputShape": "circle",
-          "currentScreen": 3,
+          "currentScreen": 2,
           "identifier": "primary_list_item_0",
           "screenTexts": [
             {
@@ -150,17 +150,10 @@
           "identifier": "primary_list_item_2"
         },
         {
-          "type": "IMCheckBox",
-          "identifier": "primary_list_item_3",
-          "vPadding": 30
-        },
-        {
           "type": "IMButton",
-          "label": "Start Selling Now",
-          "identifier": "primary_list_item_4",
-          "vPadding": 10,
-          "radius": 23,
-          "font": 18,
+          "label": "Next",
+          "identifier": "primary_list_item_3",
+          "vPadding": 70,
           "shape": "CircleShape",
           "actions": [
             {
@@ -181,7 +174,7 @@
           "type": "IMSOIProgressBar",
           "label": "Next",
           "inputShape": "circle",
-          "currentScreen": 2,
+          "currentScreen": 3,
           "identifier": "primary_list_item_0",
           "screenTexts": [
             {
@@ -254,10 +247,17 @@
           ]
         },
         {
-          "type": "IMButton",
-          "label": "Next",
+          "type": "IMCheckBox",
           "identifier": "primary_list_item_3",
-          "vPadding": 70,
+          "vPadding": 30
+        },
+        {
+          "type": "IMButton",
+          "label": "Start Selling Now",
+          "identifier": "primary_list_item_4",
+          "vPadding": 10,
+          "radius": 23,
+          "font": 18,
           "shape": "CircleShape",
           "actions": [
             {
