@@ -1,3 +1,4 @@
+
 {
   "version": 1,
   "page1": {
@@ -24,31 +25,41 @@
           ],
           "vPadding": 0
         },
+           {
+          "type": "IMAutoClickButton",
+          "identifier": "primary_list_item_1111",
+          "font": 18,
+          "color": "#000000",
+          "actions": [
+            {
+              "type": "onClick_interactionEvent",
+              "event_name": "companyPageViewed"  }
+          ]
+        },
         {
           "type": "text",
-          "text": "Hi $user 10:35, start your journey \n on India's largest online Marketplace \n for FREE",
+          "text": "Hi ${"$"}username, start your journey \n on India's largest online Marketplace \n for FREE",
           "identifier": "primary_list_item_1",
           "font": 18,
           "color": "#000000",
-          "fontGlyphs": 400,
-          "actions": [
-            {
-              "type": "onClick_navigation",
-              "navigation": "S"
-            }
-          ]
+          "fontGlyphs": 400
         },
         {
           "type": "IMInput",
           "label": "",
-          "identifier": "primary_list_item_2"
+          "identifier": "primary_list_item_2",
+          "actions": [
+            {
+              "type": "onClick_interactionEvent",
+              "event_name": "input company"
+            }        
+          ]
         },
         {
           "type": "IMButton",
-          "label": "move to Next",
+          "label": "Next",
           "identifier": "primary_list_item_3",
           "vPadding": 30,
-          "bgColour": "#96C3EB",
           "shape": "CircleShape",
           "actions": [
             {
@@ -84,7 +95,7 @@
   },
   "page2": {
     "data": {
-      "identifier": "primary_list_item_54",
+      "identifier": "primary_list_item_51",
       "type": "list",
       "contents": [
         {
@@ -92,6 +103,145 @@
           "label": "Next",
           "inputShape": "circle",
           "currentScreen": 2,
+          "identifier": "primary_list_item_0",
+          "screenTexts": [
+            {
+              "label": "BUSINESS NAME"
+            },
+            {
+              "label": "ADD PRODCUTS"
+            },
+            {
+              "label": "GST"
+            }
+          ],
+          "vPadding": 0
+        },
+        {
+          "type": "text",
+          "text": "Add products you wish to sell, you can add more products later",
+          "identifier": "primary_list_item_1",
+          "font": 18,
+          "color": "#000000",
+          "fontGlyphs": 400,
+          "vPadding": 40
+        },
+        {
+          "identifier": "primary_list_item_52",
+          "type": "hlist",
+          "contents": [
+            {
+              "type": "image",
+              "identifier": "primary_list_item_31",
+              "imageSource":1,
+              "vPadding": 10,
+                "actions": [
+            {
+              "type": "onClick_deeplink",
+              "deeplink": "openGallery"
+            }
+          ]
+            },
+            {
+              "type": "IMSuggestionInput",
+              "label": "1st product/service name",
+              "itemNo":0,
+              "identifier": "primary_list_item_2",
+              "actions": [
+            {
+              "type": "onClick_interactionEvent",
+              "event_name": "add product1"
+            }
+          ]
+            }
+          ]
+        },
+        {
+          "identifier": "primary_list_item_58",
+          "type": "hlist",
+          "contents": [
+            {
+              "type": "image",
+              "identifier": "primary_list_item_32",
+              "imageSource":1,
+              "vPadding": 10,
+                "actions": [
+            {
+              "type": "onClick_deeplink",
+              "deeplink": "openGallery"
+            }
+          ]
+            },
+            {
+              "type": "IMSuggestionInput",
+              "label": "2nd product/service name",
+              "itemNo":1,
+              "identifier": "primary_list_item_211",
+              "actions": [
+            {
+              "type": "onClick_interactionEvent",
+              "event_name": "add product2"
+            }
+          ]
+            }
+          ]
+        },
+        {
+          "identifier": "primary_list_item_59",
+          "type": "hlist",
+          "contents": [
+            {
+              "type": "image",
+              "identifier": "primary_list_item_33",
+              "imageSource":1,
+              "vPadding": 10,
+                "actions": [
+            {
+              "type": "onClick_deeplink",
+              "deeplink": "openGallery"
+            }
+          ]
+            },
+            {
+              "type": "IMSuggestionInput",
+              "label": "3rd product/service name",
+              "itemNo":2,
+              "identifier": "primary_list_item_277",
+              "actions": [
+            {
+              "type": "onClick_interactionEvent",
+              "event_name": "add product3"
+            }
+          ]
+            }
+          ]
+        },
+        {
+          "type": "IMButton",
+          "label": "Next",
+          "identifier": "primary_list_item_3",
+          "vPadding": 70,
+          "shape": "CircleShape",
+          "actions": [
+            {
+              "type": "onClick_deeplink",
+              "deeplink": "openThirdPage"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "page3": {
+    "data": {
+      "identifier": "primary_list_item_54",
+      "type": "list",
+      "contents": [
+        {
+          "type": "IMSOIProgressBar",
+          "label": "Next",
+          "inputShape": "circle",
+          "currentScreen": 3,
           "identifier": "primary_list_item_0",
           "screenTexts": [
             {
@@ -147,109 +297,24 @@
               "secondText": "Enter your Business PAN Number"
             }
           ],
-          "identifier": "primary_list_item_2"
-        },
-        {
-          "type": "IMButton",
-          "label": "Next",
-          "identifier": "primary_list_item_3",
-          "vPadding": 70,
-          "shape": "CircleShape",
-          "actions": [
+          "identifier": "primary_list_item_2",
+            "actions": [
             {
-              "type": "onClick_deeplink",
-              "deeplink": "openThirdPage"
-            }
-          ]
-        }
-      ]
-    }
-  },
-  "page3": {
-    "data": {
-      "identifier": "primary_list_item_51",
-      "type": "list",
-      "contents": [
-        {
-          "type": "IMSOIProgressBar",
-          "label": "Next",
-          "inputShape": "circle",
-          "currentScreen": 3,
-          "identifier": "primary_list_item_0",
-          "screenTexts": [
-            {
-              "label": "BUSINESS NAME"
-            },
-            {
-              "label": "ADD PRODCUTS"
-            },
-            {
-              "label": "GST"
-            }
-          ],
-          "vPadding": 0
-        },
-        {
-          "type": "text",
-          "text": "Add products you wish to sell, you can add more products later",
-          "identifier": "primary_list_item_1",
-          "font": 18,
-          "color": "#000000",
-          "fontGlyphs": 400,
-          "vPadding": 40
-        },
-        {
-          "identifier": "primary_list_item_52",
-          "type": "hlist",
-          "contents": [
-            {
-              "type": "image",
-              "identifier": "primary_list_item_31",
-              "vPadding": 10
-            },
-            {
-              "type": "IMInput",
-              "label": "1st product/service name",
-              "identifier": "primary_list_item_2"
-            }
-          ]
-        },
-        {
-          "identifier": "primary_list_item_58",
-          "type": "hlist",
-          "contents": [
-            {
-              "type": "image",
-              "identifier": "primary_list_item_32",
-              "vPadding": 10
-            },
-            {
-              "type": "IMInput",
-              "label": "2nd product/service name",
-              "identifier": "primary_list_item_211"
-            }
-          ]
-        },
-        {
-          "identifier": "primary_list_item_59",
-          "type": "hlist",
-          "contents": [
-            {
-              "type": "image",
-              "identifier": "primary_list_item_33",
-              "vPadding": 10
-            },
-            {
-              "type": "IMInput",
-              "label": "3rd product/service name",
-              "identifier": "primary_list_item_277"
-            }
+              "type": "onClick_interactionEvent",
+              "event_name": "stat data"
+            }        
           ]
         },
         {
           "type": "IMCheckBox",
           "identifier": "primary_list_item_3",
-          "vPadding": 30
+          "vPadding": 30,
+            "actions": [
+            {
+              "type": "onClick_interactionEvent",
+              "event_name": "tnc data"
+            }        
+          ]
         },
         {
           "type": "IMButton",
@@ -261,8 +326,8 @@
           "shape": "CircleShape",
           "actions": [
             {
-              "type": "onClick_deeplink",
-              "deeplink": "openThirdPage"
+              "type": "onClick_interactionEvent",
+              "event_name": "gst type data"
             }
           ]
         }
