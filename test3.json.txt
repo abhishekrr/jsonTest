@@ -128,7 +128,7 @@
                 },
                 {
                   "type": "text",
-                  "text": "Hi ${"$"}username, Please tell us your awesome Company details",
+                  "text": "Hi $username, Please tell us your awesome Company details",
                   "identifier": "primary_list_item_1",
                   "font": 18,
                   "color": "#000000",
