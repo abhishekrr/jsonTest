@@ -39,7 +39,7 @@
                 },
                 {
                   "type": "text",
-                  "text": "Hi ${"$"}username, Welcome To IndiaMart Seller Platform!",
+                  "text": "Hi $username, Welcome To IndiaMart Seller Platform!",
                   "identifier": "primary_list_item_1",
                   "font": 18,
                   "color": "#000000",
