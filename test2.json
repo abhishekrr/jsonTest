@@ -1,0 +1,339 @@
+
+        {
+          "version": 1,
+          "page1": {
+            "data": {
+              "identifier": "primary_list_item_5",
+              "type": "list",
+              "contents": [
+                {
+                  "type": "IMSOIProgressBar",
+                  "bgColour": "#FFFFFF",
+                  "inputShape": "circle",
+                  "currentScreen": 1,
+                  "identifier": "primary_list_item_0",
+                  "screenTexts": [
+                    {
+                      "label": "BUSINESS NAME"
+                    },
+                    {
+                      "label": "ADD PRODCUTS"
+                    },
+                    {
+                      "label": "GST"
+                    }
+                  ],
+                  "vPadding": 0
+                },
+                {
+                  "type": "IMAutoClickButton",
+                  "identifier": "primary_list_item_1111",
+                  "font": 18,
+                  "color": "#000000",
+                  "actions": [
+                    {
+                      "type": "onClick_interactionEvent",
+                      "event_name": "companyPageViewed"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "Hi ${"$"}username, Welcome To IndiaMart Seller Platform!",
+                  "identifier": "primary_list_item_1",
+                  "font": 18,
+                  "color": "#000000",
+                  "fontGlyphs": 400
+                },
+                {
+                  "type": "IMInput",
+                  "label": "",
+                  "identifier": "primary_list_item_2",
+                  "actions": [
+                    {
+                      "type": "onClick_interactionEvent",
+                      "event_name": "input company"
+                    }
+                  ]
+                },
+                {
+                  "type": "IMButton",
+                  "label": "move to Next",
+                  "identifier": "primary_list_item_3",
+                  "vPadding": 30,
+                  "bgColour": "#96C3EB",
+                  "shape": "CircleShape",
+                  "actions": [
+                    {
+                      "type": "onClick_deeplink",
+                      "deeplink": "openSecondPage"
+                    }
+                  ]
+                },
+                {
+                  "type": "IMSOIBox",
+                  "topLine": "Note: Avoid these mistakes",
+                  "bgColour": "#FFfff7",
+                  "bottomLine": "Note: Please enter the name of your business as given in your GST Registration or Business PAN card.",
+                  "identifier": "primary_list_item_4",
+                  "insideData": [
+                    {
+                      "firstText": "Samsung",
+                      "secondText": "Samsung Mobile Store"
+                    },
+                    {
+                      "firstText": "Furniture",
+                      "secondText": "Suresh Furnitures"
+                    },
+                    {
+                      "firstText": "Sunil Patel",
+                      "secondText": "Sunil Patel Stores"
+                    }
+                  ],
+                  "vPadding": 60
+                }
+              ]
+            }
+          },
+          "page2": {
+            "data": {
+              "identifier": "primary_list_item_54",
+              "type": "list",
+              "contents": [
+                {
+                  "type": "IMSOIProgressBar",
+                  "label": "Next",
+                  "inputShape": "circle",
+                  "currentScreen": 2,
+                  "identifier": "primary_list_item_0",
+                  "screenTexts": [
+                    {
+                      "label": "BUSINESS NAME"
+                    },
+                    {
+                      "label": "GST"
+                    },
+                    {
+                      "label": "ADD PRODUCT"
+                    }
+                  ],
+                  "vPadding": 0
+                },
+                {
+                  "type": "text",
+                  "text": "Add your GSTIN- build trust and \n increase business",
+                  "identifier": "primary_list_item_1",
+                  "align": "center",
+                  "font": 14,
+                  "color": "#000000",
+                  "fontGlyphs": 400,
+                  "vPadding": 10
+                },
+                {
+                  "type": "text",
+                  "text": "Enter your GST Details",
+                  "identifier": "primary_list_item_111",
+                  "align": "left",
+                  "font": 14,
+                  "color": "#000000",
+                  "fontGlyphs": 400,
+                  "vPadding": 10
+                },
+                {
+                  "type": "radioButton",
+                  "label": "I have GSTIN",
+                  "data": [
+                    {
+                      "firstText": "I have GSTIN",
+                      "secondText": "eg:- 22AAAAAA0000A1Z5"
+                    },
+                    {
+                      "firstText": "I am exempted",
+                      "secondText": "Enter your Business PAN Number"
+                    },
+                    {
+                      "firstText": "I don't remember",
+                      "secondText": "Enter your Business PAN Number"
+                    },
+                    {
+                      "firstText": "I don't have it",
+                      "secondText": "Enter your Business PAN Number"
+                    }
+                  ],
+                  "identifier": "primary_list_item_2",
+                  "actions": [
+                    {
+                      "type": "onClick_interactionEvent",
+                      "event_name": "stat data"
+                    }
+                  ]
+                },
+                 {
+                  "type": "IMButton",
+                  "label": "Click to Add Products",
+                  "identifier": "primary_list_item_3",
+                  "vPadding": 70,
+                  "shape": "CircleShape",
+                  "actions": [
+                    {
+                      "type": "onClick_deeplink",
+                      "deeplink": "openThirdPage"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "page3": {
+            "data": {
+              "identifier": "primary_list_item_51",
+              "type": "list",
+              "contents": [
+                {
+                  "type": "IMSOIProgressBar",
+                  "label": "Next",
+                  "inputShape": "circle",
+                  "currentScreen": 3,
+                  "identifier": "primary_list_item_0",
+                  "screenTexts": [
+                    {
+                      "label": "BUSINESS NAME"
+                    },
+                    {
+                      "label": "GST"
+                    },
+                    {
+                      "label": "ADD PRODUCTS"
+                    }
+                  ],
+                  "vPadding": 0
+                },
+                {
+                  "type": "text",
+                  "text": "Add products you wish to sell, you can add more products later",
+                  "identifier": "primary_list_item_1",
+                  "font": 18,
+                  "color": "#000000",
+                  "fontGlyphs": 400,
+                  "vPadding": 40
+                },
+                {
+                  "identifier": "primary_list_item_52",
+                  "type": "hlist",
+                  "contents": [
+                    {
+                      "type": "image",
+                      "identifier": "primary_list_item_31",
+                      "imageSource": 1,
+                      "vPadding": 10,
+                      "actions": [
+                        {
+                          "type": "onClick_deeplink",
+                          "deeplink": "openGallery"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "IMSuggestionInput",
+                      "label": "1st product/service name",
+                      "itemNo": 0,
+                      "identifier": "primary_list_item_2",
+                      "actions": [
+                        {
+                          "type": "onClick_interactionEvent",
+                          "event_name": "add product1"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "identifier": "primary_list_item_58",
+                  "type": "hlist",
+                  "contents": [
+                    {
+                      "type": "image",
+                      "identifier": "primary_list_item_32",
+                      "imageSource": 1,
+                      "vPadding": 10,
+                      "actions": [
+                        {
+                          "type": "onClick_deeplink",
+                          "deeplink": "openGallery"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "IMSuggestionInput",
+                      "label": "2nd product/service name",
+                      "itemNo": 1,
+                      "identifier": "primary_list_item_211",
+                      "actions": [
+                        {
+                          "type": "onClick_interactionEvent",
+                          "event_name": "add product2"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "identifier": "primary_list_item_59",
+                  "type": "hlist",
+                  "contents": [
+                    {
+                      "type": "image",
+                      "identifier": "primary_list_item_33",
+                      "imageSource": 1,
+                      "vPadding": 10,
+                      "actions": [
+                        {
+                          "type": "onClick_deeplink",
+                          "deeplink": "openGallery"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "IMSuggestionInput",
+                      "label": "3rd product/service name",
+                      "itemNo": 2,
+                      "identifier": "primary_list_item_277",
+                      "actions": [
+                        {
+                          "type": "onClick_interactionEvent",
+                          "event_name": "add product3"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "IMCheckBox",
+                  "identifier": "primary_list_item_3",
+                  "vPadding": 30,
+                  "actions": [
+                    {
+                      "type": "onClick_interactionEvent",
+                      "event_name": "tnc data"
+                    }
+                  ]
+                },
+                {
+                  "type": "IMButton",
+                  "label": "Start Selling Now",
+                  "identifier": "primary_list_item_4",
+                  "vPadding": 10,
+                  "radius": 23,
+                  "font": 18,
+                  "shape": "CircleShape",
+                  "actions": [
+                    {
+                      "type": "onClick_interactionEvent",
+                      "event_name": "gst type data"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
